@@ -5,7 +5,7 @@ from pygame import mixer
 class Music:
     def __init__(self,root):
         root.resizable(0,0)
-        root.title("Music Player")
+        root.title("AjiPlayer")
         root.iconbitmap("Music Icon.ico")
         root.geometry('500x500')
         Button(root,text='LOAD',command=self.Load).place(relx=0.02,rely=0.02)
