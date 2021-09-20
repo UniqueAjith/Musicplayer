@@ -6,7 +6,7 @@ class Music:
     def __init__(self,root):
         root.resizable(0,0)
         root.title("Music Player")
-        root.iconbitmap("Music Icon.ico")
+        # root.iconbitmap("Music Icon.ico")
         root.geometry('500x500')
         Button(root,text='LOAD',command=self.Load).place(relx=0.02,rely=0.02)
         Button(root,text='PLAY',command=self.play).place(relx=0.1,rely=0.02)
