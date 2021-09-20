@@ -18,6 +18,8 @@ class Music:
         # song=Label(playlist,textvariable=self.song,fg="green").grid(row=0,column=0,padx=10,pady=5)
         self.song=False
 
+    def Load(self):
+        self.song=filedialog.askopenfilename()
 
     def play(self):
         if self.song:
